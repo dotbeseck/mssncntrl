@@ -109,7 +109,7 @@ class Suppress_domain_list:
 
 
 # Use dnstwist to get a good list of squatted domains using its fuzzers
-domainList = ["localhost.com", "1debit.com"]
+domainList = ["localhost.com", "domain.com"]
 
 for domain_name in domainList:
     with Suppress_domain_list():
